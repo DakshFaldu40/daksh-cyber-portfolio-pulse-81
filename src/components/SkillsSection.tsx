@@ -3,15 +3,15 @@ import React from 'react';
 
 const SkillsSection: React.FC = () => {
   const basicSkills = [
-    { name: 'Python', icon: '🐍', level: 90 },
-    { name: 'C++', icon: '⚡', level: 85 },
-    { name: 'Java', icon: '☕', level: 80 },
-    { name: 'HTML', icon: '🌐', level: 95 },
-    { name: 'CSS', icon: '🎨', level: 90 },
-    { name: 'JavaScript', icon: '🚀', level: 88 },
-    { name: 'DSA', icon: '🧠', level: 85 },
-    { name: 'RoomDB', icon: '💾', level: 75 },
-    { name: 'Jetpack Compose', icon: '📱', level: 80 }
+    { name: 'Python', icon: '🐍'  },
+    { name: 'C++', icon: '⚡'},
+    { name: 'Java', icon: '☕'},
+    { name: 'HTML', icon: '🌐'},
+    { name: 'CSS', icon: '🎨'},
+    { name: 'JavaScript', icon: '🚀'},
+    { name: 'DSA', icon: '🧠'},
+    { name: 'RoomDB', icon: '💾',},
+    { name: 'Jetpack Compose', icon: '📱'}
   ];
 
   return (
@@ -44,17 +44,6 @@ const SkillsSection: React.FC = () => {
                 </div>
                 
                 {/* Skill Level Bar */}
-                <div className="relative">
-                  <div className="w-full bg-gray-800 rounded-full h-2">
-                    <div
-                      className="bg-gradient-to-r from-cyber-blue to-cyber-purple h-2 rounded-full transition-all duration-1000 group-hover:animate-glow-pulse"
-                      style={{ width: `${skill.level}%` }}
-                    ></div>
-                  </div>
-                  <span className="absolute right-0 -top-6 text-sm font-tech text-cyber-blue">
-                    {skill.level}%
-                  </span>
-                </div>
               </div>
             ))}
           </div>
