@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const AboutSection: React.FC = () => {
@@ -12,7 +11,7 @@ const AboutSection: React.FC = () => {
               <img
                 src="/daksh.jpg"
                 alt="Daksh Faldu"
-                className="w-full h-full object-cover filter brightness-110 contrast-125 hue-rotate-180"
+                className="w-full h-full object-cover"
               />
             </div>
             {/* Glitch overlay */}
