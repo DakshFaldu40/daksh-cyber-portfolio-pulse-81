@@ -93,7 +93,7 @@
   }
 
   .cyber-button:hover {
-    box-shadow: 0 0 40px rgba(0, 245, 255, 0.6);
+    box-shadow: 0 0 40px #00f5ff;
   }
 
   .glitch-text {
