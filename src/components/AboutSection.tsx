@@ -11,7 +11,7 @@ const AboutSection: React.FC = () => {
               <img
                 src="/daksh.jpg"
                 alt="Daksh Faldu"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover filter brightness-110 contrast-125 hue-rotate-180"
               />
             </div>
             {/* Glitch overlay */}
